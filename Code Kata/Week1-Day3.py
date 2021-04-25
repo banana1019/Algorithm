@@ -24,8 +24,8 @@
 #         c = max(len(result), c)
 #     return c
 
-   def get_len_of_str(s):
-        count = 0
+def get_len_of_str(s):
+    count = 0
     ls = []
     for x in s:
         if x not in ls:
