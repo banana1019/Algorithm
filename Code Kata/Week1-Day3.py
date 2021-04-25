@@ -12,6 +12,18 @@
 #             c = len(i)
 #     return c
 
+# def get_len_of_str(s):
+#     result = []
+#     c = 0
+#     for i in s:
+#         if i not in result:
+#             result.append(i)
+#         else:
+#             c = max(len(result), c)
+#             result = [i]
+#         c = max(len(result), c)
+#     return c
+
    def get_len_of_str(s):
         count = 0
     ls = []
